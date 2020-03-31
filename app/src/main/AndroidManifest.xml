@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.photofood.tcc.projeto.photofood">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.photofood.tcc.projeto.photofood.activity.LoginActivity"
+            android:theme="@style/AppThemeLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.photofood.tcc.projeto.photofood.activity.MainActivity" />
+        <activity
+            android:name="com.photofood.tcc.projeto.photofood.activity.CadastroActivity"
+            android:theme="@style/AppThemeLogin" />
+        <activity
+            android:name="com.photofood.tcc.projeto.photofood.activity.EditarPerfilActivity"
+            android:parentActivityName="com.photofood.tcc.projeto.photofood.activity.MainActivity" />
+        <activity android:name="com.photofood.tcc.projeto.photofood.activity.PerfilAmigoActivity" />
+        <activity android:name="com.photofood.tcc.projeto.photofood.activity.FiltroActivity" />
+        <activity android:name="com.photofood.tcc.projeto.photofood.activity.VisualizarPostagemActivity" />
+        <activity android:name="com.photofood.tcc.projeto.photofood.activity.ComentariosActivity"></activity>
+    </application>
+
+</manifest>
