@@ -6,7 +6,7 @@
     tools:context="com.photofood.tcc.projeto.photofood.fragment.FeedFragment">
 
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerFeed"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

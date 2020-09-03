@@ -1,13 +1,13 @@
 package com.photofood.tcc.projeto.photofood.activity;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
         //configuracoes de objetos
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
+
+        System.out.println("user: " + autenticacao.getUid());
 
         //Configurar bottom navigation view
         configuraBottomNavigationView();
