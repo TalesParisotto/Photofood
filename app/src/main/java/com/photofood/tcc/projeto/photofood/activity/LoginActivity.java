@@ -111,6 +111,10 @@ public class LoginActivity extends AppCompatActivity {
         startActivity( i );
     }
 
+    public void redefinirSenha(View view){
+        startActivity(new Intent(this, RedefinirSenhaActivity.class));
+    }
+
     public void inicializarComponentes(){
 
         campoEmail   = findViewById(R.id.editLoginEmail);

@@ -8,16 +8,37 @@
     android:paddingRight="16dp"
     tools:context="com.photofood.tcc.projeto.photofood.fragment.PostagemFragment">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="650px"
+        android:layout_marginBottom="100px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_postagem" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:text="Poste agora a foto com o melhor angulo de seu alimento!" />
 
     <Button
         android:id="@+id/buttonAbrirGaleria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Abrir galeria" />
+        android:layout_marginBottom="25px"
+        android:background="@color/colorPrimaryDark"
+        android:text="Abrir galeria"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/buttonAbrirCamera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Abrir câmera" />
+        android:background="@color/colorPrimaryDark"
+        android:text="Abrir câmera"
+        android:textColor="@android:color/white" />
+
+
 </LinearLayout>

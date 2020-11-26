@@ -8,6 +8,7 @@
     tools:context="com.photofood.tcc.projeto.photofood.activity.LoginActivity"
     tools:layout_editor_absoluteY="25dp">
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="200dp"
@@ -32,6 +33,8 @@
         android:background="@drawable/background_caixa_texto"
         android:ems="10"
         android:hint="Senha"
+        android:drawableLeft="@drawable/ic_cadeado_cinza_24dp"
+        android:drawablePadding="5dp"
         android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="@android:color/white"
@@ -50,6 +53,8 @@
         android:background="@drawable/background_caixa_texto"
         android:ems="10"
         android:hint="Nome"
+        android:drawableLeft="@drawable/ic_pessoa_cinza_24dp"
+        android:drawablePadding="5dp"
         android:inputType="text"
         android:padding="10dp"
         android:textColor="@android:color/white"
@@ -69,6 +74,8 @@
         android:background="@drawable/background_caixa_texto"
         android:ems="10"
         android:hint="E-mail"
+        android:drawableLeft="@drawable/ic_email_cinza_24dp"
+        android:drawablePadding="5dp"
         android:inputType="textEmailAddress"
         android:padding="10dp"
         android:textColor="@android:color/white"
@@ -106,5 +113,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonEntrar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="341dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="5px"
+        android:text="Efetue seu cadastro neste momento"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

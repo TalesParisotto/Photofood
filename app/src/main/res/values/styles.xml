@@ -18,4 +18,12 @@
         <item name="android:colorBackground">@color/cinza_medio</item>
     </style>
 
+    <style name="AppThemeCadastro" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/roxo</item>
+        <item name="colorPrimaryDark">@color/roxo</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/cinza_medio</item>
+    </style>
+
 </resources>

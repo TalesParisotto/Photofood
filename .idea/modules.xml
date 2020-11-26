@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Photofood.iml" filepath="$PROJECT_DIR$/Photofood.iml" group="Photofood" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Photofood-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Photofood-app.iml" group="Photofood/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Photofood/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/photo.iml" filepath="$PROJECT_DIR$/.idea/modules/photo.iml" group="photo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/photo-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/photo-app.iml" group="photo/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repos-Photofood.iml" filepath="$PROJECT_DIR$/.idea/modules/repos-Photofood.iml" group="Photofood" />
     </modules>
   </component>
 </project>

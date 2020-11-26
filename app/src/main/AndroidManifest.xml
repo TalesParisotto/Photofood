@@ -18,8 +18,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.RedefinirSenhaActivity"
+                android:theme="@style/AppThemeCadastro">
+        </activity>
         <activity
-            android:name="com.photofood.tcc.projeto.photofood.activity.LoginActivity"
+            android:name=".activity.LoginActivity"
             android:theme="@style/AppThemeLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,17 +30,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.photofood.tcc.projeto.photofood.activity.MainActivity" />
+        <activity android:name=".activity.MainActivity" />
         <activity
-            android:name="com.photofood.tcc.projeto.photofood.activity.CadastroActivity"
-            android:theme="@style/AppThemeLogin" />
+            android:name=".activity.CadastroActivity"
+            android:theme="@style/AppThemeCadastro" />
         <activity
-            android:name="com.photofood.tcc.projeto.photofood.activity.EditarPerfilActivity"
-            android:parentActivityName="com.photofood.tcc.projeto.photofood.activity.MainActivity" />
-        <activity android:name="com.photofood.tcc.projeto.photofood.activity.PerfilAmigoActivity" />
-        <activity android:name="com.photofood.tcc.projeto.photofood.activity.FiltroActivity" />
-        <activity android:name="com.photofood.tcc.projeto.photofood.activity.VisualizarPostagemActivity" />
-        <activity android:name="com.photofood.tcc.projeto.photofood.activity.ComentariosActivity"></activity>
+            android:name=".activity.EditarPerfilActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity android:name=".activity.PerfilAmigoActivity" />
+        <activity android:name=".activity.FiltroActivity" />
+        <activity android:name=".activity.VisualizarPostagemActivity" />
+        <activity android:name=".activity.ComentariosActivity" />
     </application>
 
 </manifest>
